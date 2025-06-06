@@ -25,8 +25,8 @@ A simple To-Do web application built using Flask (Python) with a MySQL backend. 
 - **Platform**: Linux  
 
 ---
+## 📁 Project Structure
 
-Project Structure
 .
 ├── app/
 │   ├── static/
