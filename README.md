@@ -26,24 +26,26 @@ A simple To-Do web application built using Flask (Python) with a MySQL backend. 
 
 ---
 
-## 📁 Project Structure
+Project Structure
+.
 ├── app/
-│ ├── static/
-│ │ └── style.css
-│ ├── templates/
-│ │ └── index.html
-│ ├── app.py
-│ └── requirements.txt
+│   ├── static/
+│   │   └── style.css
+│   ├── templates/
+│   │   └── index.html
+│   ├── app.py
+│   └── requirements.txt
 ├── k8s/
-│ ├── backend-deploy.yaml
-│ ├── backend-service.yaml
-│ ├── db-config.yaml
-│ ├── db-secret.yaml
-│ ├── mysql-deployment.yaml
-│ └── mysql-pv-pvc.yaml
+│   ├── backend-deploy.yaml
+│   ├── backend-service.yaml
+│   ├── db-config.yaml
+│   ├── db-secret.yaml
+│   ├── mysql-deployment.yaml
+│   └── mysql-pv-pvc.yaml
 ├── Dockerfile
 ├── README.md
 └── Devops assignment3.odt
+
 
 
  
