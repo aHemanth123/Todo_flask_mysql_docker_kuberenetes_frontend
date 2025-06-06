@@ -18,21 +18,9 @@ venv/
 .vscode/ 
 
 # System-specific files
-.DS_Store
-Thumbs.db
+.DS_Store 
 
-# Test/coverage outputs
-*.cover
-coverage.xml
-htmlcov/
-.tox/
-.nox/
-.pytest_cache/
-nosetests.xml
-
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints/
-
+ 
 # MySQL data dumps (if any)
 *.sql
 
@@ -40,5 +28,6 @@ nosetests.xml
 # Kubernetes Secrets (keep out sensitive info)
 k8s/db-secret.yaml
 
+
 # Ignore ODT/Assignment files if not needed
-Devops assignment*.odt
+Devopsassignment*.odt
