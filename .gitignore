@@ -1,0 +1,44 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+venv/
+.env/
+*.env
+
+# Docker
+*.tar
+*.log
+
+# VS Code or JetBrains IDEs
+.vscode/ 
+
+# System-specific files
+.DS_Store
+Thumbs.db
+
+# Test/coverage outputs
+*.cover
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+nosetests.xml
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# MySQL data dumps (if any)
+*.sql
+
+
+# Kubernetes Secrets (keep out sensitive info)
+k8s/db-secret.yaml
+
+# Ignore ODT/Assignment files if not needed
+Devops assignment*.odt
