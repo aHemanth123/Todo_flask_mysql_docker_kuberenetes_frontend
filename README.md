@@ -62,3 +62,16 @@ cd Todo_flask_mysql_docker_kubernetes_frontend
 
 docker build -t todo-flask-app .
 
+
+### 3. Run Locally with Docker
+
+docker run -p portno:portno  todo-flask-app
+
+### 4. Kubernetes Deployment
+
+kubectl apply -f k8s/
+
+To check all resources:
+
+kubectl get all
+
